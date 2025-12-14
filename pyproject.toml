@@ -3,34 +3,25 @@ requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "magenta_rt"
-version = "0.3.0"
+name = "musiccoca"
+version = "0.0.1"
 authors = [
   { name="Google DeepMind" },
 ]
-description = "Magenta RT: Real-time music generation"
+description = "MusicCoCa: Joint text-audio embeddings"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 dependencies = [
-  "aiohttp",
   "absl-py",
-  "chex",
   "clu",
-  "flax",
-  "gin-config",
-  "flaxformer @ git+https://github.com/google/flaxformer@399ea3a",
-  "google-cloud-storage",
-  "jax",
-  "jaxlib",
   "librosa",
   "numpy",
   "resampy",
   "requests",
   "sentencepiece",
-  "seqio",
   "soundfile",
-  "tf2jax",
+  "tensorflow==2.20.0",
   "tqdm",
   "typing-extensions",
 ]
