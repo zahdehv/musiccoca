@@ -40,7 +40,6 @@ print("audio embedded in:", tm)
 
 - Joint embedding of text and audio styles
 - High-quality audio representations
-- Fast inference with optimized implementations
 
 ## License
 
