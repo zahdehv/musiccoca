@@ -40,7 +40,7 @@ tpu = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/magenta/magenta-realtime"
+Homepage = "https://github.com/zahdehv/musiccoca"
 
 [tool.setuptools.packages.find]
 where = ["."]
